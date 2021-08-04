@@ -1,0 +1,36 @@
+.jumbotron{
+    background-color: blue;
+    color: black;
+    margin-top: 50px;
+}
+
+.encabezado{
+    width: 60%;
+    height: 90%;
+}
+
+footer{
+    padding: 10px 10px 0 10px;
+    background-color: blue;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.card-servicio {
+    flex: 1 200px;
+    padding: 3px 0px 3px 0px;
+    margin-top: 10px;
+}
+
+.btn-agregar {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.footer-address-icon{
+    padding-right: 10px;
+}
+
+.tab-content {
+ padding-top: 10px;
+}

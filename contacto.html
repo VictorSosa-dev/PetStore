@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <!-- build:css dist/contacto.css-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--endbuild-->
+  <title>Contacto</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="./index.html">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="./precios.html">Precios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
+        <li class="nav-item active"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <!-- Es un componente que tiene como finalidad mostrar contenidos de forma muy destacada.
+                           En el mismo se puede introducir la información que deseemos, desde imagenes, textos, cabeceras…-->
+    <h1>Mi peludo</h1>
+  </div>
+
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+      </ol>
+    </nav>
+
+    <h1> Dejame un comentario</h1>
+
+    <form action="">
+      <div class="form-row">
+        <div class="form-group col-sm-6">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="apellido">Apellido</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="email" placeholder="Ingrese su email">
+      </div>
+      <div class="form-group">
+        <label for="comentario">Comentario</label>
+        <textarea class="form-control" id="comentario" rows="3"></textarea>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-sm-4">
+          <label for="servicio">Servicio</label>
+          <select id="Servicio"  class="form-control">
+            <option selected>Uñas de tip</option>
+            <option >Uñas escultural</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="form-row">
+        <div class="form-check form-group col-sm-4">
+          <input type="checkbox" class="form-check-label"
+          id="gridCheck">
+          <label for="gridCheck" class="form-check-label">Contactarme</label>
+        </div>
+      </div>
+      <div class="form-row">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+
+  <footer>
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column">
+        <a href="http://www.facebook.com">Facebook</a>
+        <a href="http://www.instagram.com">Instagram</a>
+        <a href="http://www.twitter.com">Twitter</a>
+        <a href="http://www.google.com">Google</a>
+      </div>
+      <div class="col-sm-4 d-flex flex-column">
+        <address>
+          Caller rio Santa colete
+          +52 5529206639
+          manuelsosapia@gmail.com
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="http://www.facebook.com">Nosotros</a>
+        <a href="http://www.Instagram.com">Precios</a>
+        <a href="http://www.twitter.com">Términos y condiciones</a>
+        <a href="http://www.google.com">Contacto</a>
+      </div>
+    </div>
+  </footer>
+  <!-- Option 1: Jquery first, Bootstrap Bundle with Popper  -->
+  <!-- buil:js dist/contacto.js-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--endbuild-->
+</body>
+
+
+</html>
